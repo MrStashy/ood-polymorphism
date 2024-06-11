@@ -52,7 +52,7 @@ describe("Deep equal", () => {
       expect(deepEqualAssertion.check()).toEqual(false)
   })
 
-  it ("returns false when objects one object has identical properties but also extra properties", () => {
+  it ("returns false when one object has identical properties but also extra properties", () => {
     const user = {
         name: "John",
         age: 31,
